@@ -55,10 +55,37 @@
       ]
     },
     {
+      "name": "Tokyo Ghoul",
+      "slug": "tokyo-ghoul",
+      "image": "tokyo-ghoul.jpg",
+      "id": 3,
+      "description": "Embark on a grand adventure with Monkey D. Luffy and his diverse crew of pirates as they search for the legendary One Piece treasure.",
+      "characters": [
+        {
+          "name": "Ken Kaneki",
+          "slug": "ken-kaneki",
+          "image": "kaneki.jpg",
+          "description": "Originally born as a human, his encounter with a female ghoul under the name of Kamishiro Rize forced him to undergo emergency surgery procedures after his assault by her. Cunning and manipulative, Rize uses her charms and Kaneki's attraction toward her as a means of getting her next \"meal.\" After the attack, Kaneki is rushed to the hospital in a half-dead state with Rize. A doctor of the name Kanou, who secretly experiments with ghouls, humans, and half-ghouls, transplants what Kaneki believes to be a kidney into his body as a means of saving his life in the dire situation. Soon he learns that he had part of Rize's kagune transplanted into him, becoming the first of many human-ghoul experiments Kanou will conduct."
+        },
+        {
+          "name": "Touka Kirishima",
+          "slug": "touka",
+          "image": "touka.jpg",
+          "description": "Touka is a ghoul successfully posing as a human and working as a waitress at a cafe which serves as a gathering place for other ghouls, as well as a food resource."
+        },
+        {
+          "name": "Hideyoshi Nagachika",
+          "slug": "hide",
+          "image": "hide.jpg",
+          "description": "Hideyoshi is a normal human and the best friend of Ken Kaneki. Hide is incredibly observant and can figure things out about people in a almost sherlock-like manner. He also becomes interested in things and works hard on them until he finds something else to interest him."
+        }
+      ]
+    },
+    {
       "name": "One Piece",
       "slug": "one-piece",
       "image": "one-piece.jpg",
-      "id": 3,
+      "id": 4,
       "description": "Embark on a grand adventure with Monkey D. Luffy and his diverse crew of pirates as they search for the legendary One Piece treasure.",
       "characters": [
         {
@@ -80,6 +107,116 @@
           "description": "Nami, the skilled navigator, guides the crew with her mapmaking abilities and dreams of mapping the world's oceans."
         }
       ]
+    },
+    {
+      "name": "One Piece",
+      "slug": "one-piece",
+      "image": "one-piece.jpg",
+      "id": 5,
+      "description": "Embark on a grand adventure with Monkey D. Luffy and his diverse crew of pirates as they search for the legendary One Piece treasure.",
+      "characters": [
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "image": "monkey-d-luffy.jpg",
+          "description": "Luffy, the rubber-bodied captain, leads the Straw Hat Pirates on a quest to find the One Piece and become the Pirate King."
+        },
+        {
+          "name": "Roronoa Zoro",
+          "slug": "roronoa-zoro",
+          "image": "roronoa-zoro.jpg",
+          "description": "Zoro, a powerful swordsman, dreams of becoming the world's greatest swordsman and supports Luffy on his epic journey."
+        },
+        {
+          "name": "Nami",
+          "slug": "nami",
+          "image": "nami.jpg",
+          "description": "Nami, the skilled navigator, guides the crew with her mapmaking abilities and dreams of mapping the world's oceans."
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ball Z",
+      "slug": "dragon-ball-z",
+      "image": "dragon-ball-z.jpg",
+      "id": 6,
+      "description": "Join Goku and his friends as they defend Earth against powerful foes, seek the magical Dragon Balls, and strive to become the strongest martial artists in the universe.",
+      "characters": [
+        {
+          "name": "Goku",
+          "slug": "goku",
+          "image": "goku.jpg",
+          "description": "Goku is the main protagonist, a Saiyan with incredible strength and a pure heart. He constantly trains to become the strongest fighter in the universe."
+        },
+        {
+          "name": "Vegeta",
+          "slug": "vegeta",
+          "image": "vegeta.jpg",
+          "description": "Vegeta, the Saiyan prince, starts as a fierce rival but later becomes a key ally. His pride and determination drive him to surpass his limits."
+        },
+        {
+          "name": "Piccolo",
+          "slug": "piccolo",
+          "image": "piccolo.jpg",
+          "description": "Piccolo, a Namekian warrior, initially an enemy, later becomes a crucial ally. His tactical mind and powerful techniques aid the Z Fighters."
+        }
+      ]
+    },
+    {
+      "name": "Attack on Titan",
+      "slug": "attack-on-titan",
+      "image": "aot.jpg",
+      "id": 7,
+      "description": "Follow Eren Yeager and his friends as they battle giant humanoid creatures known as Titans, seeking to uncover the mysteries behind their existence and protect humanity.",
+      "characters": [
+        {
+          "name": "Eren Yeager",
+          "slug": "eren-yeager",
+          "image": "eren.jpg",
+          "description": "Eren is the main protagonist, driven by a desire for revenge against the Titans after witnessing the destruction of his hometown. He later acquires the power to transform into a Titan."
+        },
+        {
+          "name": "Mikasa Ackerman",
+          "slug": "mikasa-ackerman",
+          "image": "mikasa.jpg",
+          "description": "Mikasa is Eren's adoptive sister and a skilled soldier. Her exceptional combat abilities and unwavering loyalty make her a formidable force on the battlefield."
+        },
+        {
+          "name": "Armin Arlert",
+          "slug": "armin-arlert",
+          "image": "armin.jpg",
+          "description": "Armin is Eren's childhood friend and a strategic thinker. Despite initially lacking combat skills, his intelligence and resourcefulness contribute significantly to the Survey Corps."
+        }
+      ]
+    },
+    {
+      "name": "Demon Slayer",
+      "slug": "demon-slayer",
+      "image": "demon.jpg",
+      "id": 8,
+      "description": "Follow Tanjiro Kamado as he joins the Demon Slayer Corps to avenge his family and save his demon-turned sister Nezuko. Together with his companions, they battle demons and uncover the truth behind the mysterious Demon Slayer marks.",
+      "characters": [
+        {
+          "name": "Tanjiro Kamado",
+          "slug": "tanjiro-kamado",
+          "image": "tanjiro-kamado.jpg",
+          "description": "Tanjiro is the main protagonist, a kind-hearted boy whose family was slaughtered by demons. He becomes a Demon Slayer to avenge his family and cure his sister Nezuko, who was turned into a demon."
+        },
+        {
+          "name": "Nezuko Kamado",
+          "slug": "nezuko-kamado",
+          "image": "nezuko-kamado.jpg",
+          "description": "Nezuko is Tanjiro's younger sister who was turned into a demon. Despite her demonic nature, she retains a protective instinct towards her brother and joins him in his quest as a demon allied with the Demon Slayer Corps."
+        },
+        {
+          "name": "Zenitsu Agatsuma",
+          "slug": "zenitsu-agatsuma",
+          "image": "zenitsu-agatsuma.jpg",
+          "description": "Zenitsu is a fearful and anxiety-ridden Demon Slayer with a unique combat style. Despite his initial shortcomings, he develops into a courageous warrior with exceptional abilities when faced with danger."
+        }
+      ]
     }
+
+
   ]
 }

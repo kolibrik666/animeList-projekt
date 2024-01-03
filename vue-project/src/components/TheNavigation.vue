@@ -22,6 +22,6 @@ export default {
 </script>
 <style>
 #nav .active-link{
-  color:green;
+  color: #07c5ff;
 }
 </style>

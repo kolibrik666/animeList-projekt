@@ -1,29 +1,29 @@
+
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import DestinationView from '../views/DestinationView.vue'
-import ExperienceShow from '../views/ExperienceShow.vue'
+import HomeAnimeListView from '../views/HomeAnimeListView.vue'
+import AnimeView from '../views/AnimeView.vue'
+import CharacterShow from '../views/CharacterShow.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeAnimeListView
   },
   {
-    path: '/destination/:id/:slug',
-    name: 'destinationShow',
-    component: DestinationView,
+    path: '/anime/:id/:slug',
+    name: 'animeShow',
+    component: AnimeView,
     props: route=> ({id: parseInt(route.params.id)}),
     children:[
       {
-        path: ':experienceSlug',
-        name: 'experience.show',
-        component: ExperienceShow,
+        path: ':characterSlug',
+        name: 'character.show',
+        component: CharacterShow,
         props: route=> ({...route.params, id: parseInt(route.params.id)})
       }
     ]
   },
-
 ]
 
 const router = createRouter({
