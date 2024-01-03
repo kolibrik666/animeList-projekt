@@ -1,2 +1,2 @@
 # frontendove-technologie
-FT course repo
+projekt for school
