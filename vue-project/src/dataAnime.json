@@ -1,0 +1,85 @@
+{
+  "animes": [
+    {
+      "name": "Dragon Ball Z",
+      "slug": "dragon-ball-z",
+      "image": "dragon-ball-z.jpg",
+      "id": 1,
+      "description": "Join Goku and his friends as they defend Earth against powerful foes, seek the magical Dragon Balls, and strive to become the strongest martial artists in the universe.",
+      "characters": [
+        {
+          "name": "Goku",
+          "slug": "goku",
+          "image": "goku.jpg",
+          "description": "Goku is the main protagonist, a Saiyan with incredible strength and a pure heart. He constantly trains to become the strongest fighter in the universe."
+        },
+        {
+          "name": "Vegeta",
+          "slug": "vegeta",
+          "image": "vegeta.jpg",
+          "description": "Vegeta, the Saiyan prince, starts as a fierce rival but later becomes a key ally. His pride and determination drive him to surpass his limits."
+        },
+        {
+          "name": "Piccolo",
+          "slug": "piccolo",
+          "image": "piccolo.jpg",
+          "description": "Piccolo, a Namekian warrior, initially an enemy, later becomes a crucial ally. His tactical mind and powerful techniques aid the Z Fighters."
+        }
+      ]
+    },
+    {
+      "name": "Naruto",
+      "slug": "naruto",
+      "image": "naruto.jpg",
+      "id": 2,
+      "description": "Follow Naruto Uzumaki's journey as he seeks recognition, dreams of becoming the Hokage, and builds lasting bonds with friends while facing formidable challenges.",
+      "characters": [
+        {
+          "name": "Naruto Uzumaki",
+          "slug": "naruto-uzumaki",
+          "image": "naruto-uzumaki.jpg",
+          "description": "Naruto, the determined ninja with an indomitable spirit, aims to become the Hokage and earn the respect of his village."
+        },
+        {
+          "name": "Sasuke Uchiha",
+          "slug": "sasuke-uchiha",
+          "image": "sasuke-uchiha.jpg",
+          "description": "Sasuke, a skilled and brooding ninja, seeks power and redemption on his path of revenge against those who wronged his clan."
+        },
+        {
+          "name": "Sakura Haruno",
+          "slug": "sakura-haruno",
+          "image": "sakura-haruno.jpg",
+          "description": "Sakura, a determined and growing ninja, contributes her strength to Team 7 and becomes an essential member of the group."
+        }
+      ]
+    },
+    {
+      "name": "One Piece",
+      "slug": "one-piece",
+      "image": "one-piece.jpg",
+      "id": 3,
+      "description": "Embark on a grand adventure with Monkey D. Luffy and his diverse crew of pirates as they search for the legendary One Piece treasure.",
+      "characters": [
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "image": "monkey-d-luffy.jpg",
+          "description": "Luffy, the rubber-bodied captain, leads the Straw Hat Pirates on a quest to find the One Piece and become the Pirate King."
+        },
+        {
+          "name": "Roronoa Zoro",
+          "slug": "roronoa-zoro",
+          "image": "roronoa-zoro.jpg",
+          "description": "Zoro, a powerful swordsman, dreams of becoming the world's greatest swordsman and supports Luffy on his epic journey."
+        },
+        {
+          "name": "Nami",
+          "slug": "nami",
+          "image": "nami.jpg",
+          "description": "Nami, the skilled navigator, guides the crew with her mapmaking abilities and dreams of mapping the world's oceans."
+        }
+      ]
+    }
+  ]
+}
