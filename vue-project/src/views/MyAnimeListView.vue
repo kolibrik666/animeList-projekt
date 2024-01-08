@@ -2,14 +2,7 @@
   <div class="home">
     <h1>My Anime List</h1>
     <div class="anime-list">
-<!--      <router-link-->
-<!--          v-for="animeId in savedAnime"-->
-<!--          :key="animeId"-->
-<!--          :to="{ name: 'animeShow', params: { id: animeId } }"-->
-<!--          class="anime-card"-->
-<!--      >-->
-<!--        &lt;!&ndash; Display anime information here &ndash;&gt;-->
-<!--      </router-link>-->
+      <AnimeCard v-for="anime in filteredAnime" :key="anime.id" :anime="anime" />
     </div>
   </div>
 </template>
@@ -17,18 +10,26 @@
 <script>
 import { ref, onMounted } from 'vue';
 import { useAnimeStore } from '@/stores/animeStore';
+import animeData from '../dataAnime.json';
+import AnimeCard from "@/components/AnimeCard.vue";
 
 export default {
+  components: {AnimeCard},
   setup() {
     const animeStore = useAnimeStore();
     const savedAnime = ref([]);
 
     onMounted(() => {
-      savedAnime.value = animeStore.savedAnime;
+      savedAnime.value = animeStore.getSavedAnime();
+    });
+
+    const filteredAnime = ref([]);
+    onMounted(() => {
+      filteredAnime.value = animeData.animes.filter(anime => savedAnime.value.includes(anime.id));
     });
 
     return {
-      savedAnime,
+      filteredAnime,
     };
   },
 };

@@ -22,5 +22,8 @@ export const useAnimeStore = defineStore({
         isAnimeSaved(animeId) {
             return this.savedAnime.includes(animeId);
         },
+        getSavedAnime() {
+            return this.savedAnime;
+        },
     },
 });
