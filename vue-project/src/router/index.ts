@@ -3,6 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeAnimeListView from '../views/HomeAnimeListView.vue'
 import AnimeView from '../views/AnimeView.vue'
 import CharacterShow from '../views/CharacterShow.vue'
+import HelpView from '../views/HelpView.vue'
+import MyAnimeListView from "../views/MyAnimeListView.vue";
 
 const routes = [
   {
@@ -24,6 +26,17 @@ const routes = [
       }
     ]
   },
+  {
+    path: '/help',
+    name: 'help',
+    component: HelpView
+  },
+  {
+    path: '/myAnimeList',
+    name: 'myAnimeList',
+    component: MyAnimeListView
+  },
+
 ]
 
 const router = createRouter({

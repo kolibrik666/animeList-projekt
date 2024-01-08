@@ -5,6 +5,7 @@
       "slug": "dragon-ball-z",
       "image": "dragon-ball-z.jpg",
       "id": 1,
+      "saved": false,
       "description": "Join Goku and his friends as they defend Earth against powerful foes, seek the magical Dragon Balls, and strive to become the strongest martial artists in the universe.",
       "characters": [
         {
@@ -32,6 +33,7 @@
       "slug": "naruto",
       "image": "naruto.jpg",
       "id": 2,
+      "saved": false,
       "description": "Follow Naruto Uzumaki's journey as he seeks recognition, dreams of becoming the Hokage, and builds lasting bonds with friends while facing formidable challenges.",
       "characters": [
         {
@@ -59,6 +61,7 @@
       "slug": "tokyo-ghoul",
       "image": "tokyo-ghoul.jpg",
       "id": 3,
+      "saved": false,
       "description": "Embark on a grand adventure with Monkey D. Luffy and his diverse crew of pirates as they search for the legendary One Piece treasure.",
       "characters": [
         {
@@ -86,6 +89,7 @@
       "slug": "one-piece",
       "image": "one-piece.jpg",
       "id": 4,
+      "saved": false,
       "description": "Embark on a grand adventure with Monkey D. Luffy and his diverse crew of pirates as they search for the legendary One Piece treasure.",
       "characters": [
         {
@@ -113,6 +117,7 @@
       "slug": "one-piece",
       "image": "one-piece.jpg",
       "id": 5,
+      "saved": false,
       "description": "Embark on a grand adventure with Monkey D. Luffy and his diverse crew of pirates as they search for the legendary One Piece treasure.",
       "characters": [
         {
@@ -140,6 +145,7 @@
       "slug": "dragon-ball-z",
       "image": "dragon-ball-z.jpg",
       "id": 6,
+      "saved": false,
       "description": "Join Goku and his friends as they defend Earth against powerful foes, seek the magical Dragon Balls, and strive to become the strongest martial artists in the universe.",
       "characters": [
         {
@@ -167,6 +173,7 @@
       "slug": "attack-on-titan",
       "image": "aot.jpg",
       "id": 7,
+      "saved": false,
       "description": "Follow Eren Yeager and his friends as they battle giant humanoid creatures known as Titans, seeking to uncover the mysteries behind their existence and protect humanity.",
       "characters": [
         {
@@ -194,6 +201,7 @@
       "slug": "demon-slayer",
       "image": "demon.jpg",
       "id": 8,
+      "saved": false,
       "description": "Follow Tanjiro Kamado as he joins the Demon Slayer Corps to avenge his family and save his demon-turned sister Nezuko. Together with his companions, they battle demons and uncover the truth behind the mysterious Demon Slayer marks.",
       "characters": [
         {

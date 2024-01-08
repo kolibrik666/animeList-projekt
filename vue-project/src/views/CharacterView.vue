@@ -1,27 +1,25 @@
-
 <template>
   <div class="card">
     <img :src="`/images/${character.image}`" :alt="character.name">
     <span class="card__text">
-      {{character.name}}
+      {{ character.name }}
     </span>
   </div>
 </template>
 
 <script>
 export default {
-  props:{
-    character:{type: Object, required: true,}
+  props: {
+    character: { type: Object, required: true }
   }
-}
-
+};
 </script>
 
 <style scoped>
 .card {
-  position: relative;
   width: 100%;
   max-width: 300px;
+  margin-right: 15px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -49,6 +47,4 @@ export default {
   font-size: 16px;
   font-weight: bold;
 }
-
-/* Add additional styling as needed */
 </style>

@@ -5,12 +5,19 @@
    <div class="container">
      <router-view></router-view>
    </div>
+  <Footer />
+
 </template>
 <script>
-// import TheNavigation from '@/components/TheNavigation.vue'
-// export default{
-//  components: {TheNavigation}
-// }
+import TheNavigation from '@/components/TheNavigation.vue'
+import Footer from '@/components/Footer.vue';
+
+export default{
+ components: {
+   TheNavigation,
+   Footer,
+ }
+}
 </script>
 
 <style scoped>
