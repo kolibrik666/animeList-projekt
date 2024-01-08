@@ -13,7 +13,7 @@
       </div>
       <div class="back-button">
         <BackButton />
-        <button @click="toggleSaveStatus">
+        <button class="save-button" @click="toggleSaveStatus">
           {{ isSaved ? 'Unsave' : 'Save' }}
         </button>
       </div>
@@ -75,6 +75,23 @@ export default {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+button.save-button {
+  background-color: #2c50a1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.save-button:hover {
+  background-color: #3c5ba6;
 }
 
 .description-container {
