@@ -11,8 +11,8 @@
 <script>
 export default {
   props: {
-    anime: Object,
-  },
+    anime: { type: Object, required: true}
+  }
 };
 </script>
 

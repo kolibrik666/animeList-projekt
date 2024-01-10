@@ -3,23 +3,23 @@ import { defineStore } from 'pinia';
 export const useAnimeStore = defineStore({
     id: 'anime',
     state: () => ({
-        savedAnime: JSON.parse(localStorage.getItem('savedAnime')) || [],
+        savedAnime: JSON.parse(localStorage.getItem('savedAnime') ?? '[]'),
     }),
     actions: {
-        saveAnime(animeId) {
+        saveAnime(animeId: number) {
             if (!this.savedAnime.includes(animeId)) {
                 this.savedAnime.push(animeId);
                 this.updateLocalStorage();
             }
         },
-        unsaveAnime(animeId) {
+        unsaveAnime(animeId: number) {
             const index = this.savedAnime.indexOf(animeId);
             if (index !== -1) {
                 this.savedAnime.splice(index, 1);
                 this.updateLocalStorage();
             }
         },
-        isAnimeSaved(animeId) {
+        isAnimeSaved(animeId: number) {
             return this.savedAnime.includes(animeId);
         },
         getSavedAnime() {

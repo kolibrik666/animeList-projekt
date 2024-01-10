@@ -13,10 +13,12 @@
       </div>
       <div class="back-button">
         <BackButton />
+        <p> </p>
         <button class="save-button" @click="toggleSaveStatus">
-          {{ isSaved ? 'Unsave' : 'Save' }}
+          {{ isSaved ? 'UNSAVE' : 'SAVE' }}
         </button>
       </div>
+
     </section>
 
     <section class="characters">
