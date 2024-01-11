@@ -18,13 +18,10 @@ export default {
   setup() {
     const animeStore = useAnimeStore();
     const savedAnime = ref([]);
+    const filteredAnime = ref([]);
 
     onMounted(() => {
       savedAnime.value = animeStore.getSavedAnime();
-    });
-
-    const filteredAnime = ref([]);
-    onMounted(() => {
       filteredAnime.value = animeData.animes.filter(anime => savedAnime.value.includes(anime.id));
     });
 
